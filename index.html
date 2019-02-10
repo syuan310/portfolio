@@ -19,6 +19,8 @@
 		<script src="js/jquery.scrollgress.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+		<!-- <script src="js/plugins.js"></script> -->
+
 		<link rel="shortcut icon" href="images/favicon.ico.png">
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -26,6 +28,12 @@
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-normal.css" />
 		</noscript>
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+		 -->
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -179,95 +187,132 @@
 						<h2>Projects</h2>
 						<p></p>
 					</header>
+					<div class="gallery-menu p-b-40">
+		              <ul>
+		                <li>
+		                  <button data-filter="*" class="">All</button>
+		                </li>
+		                <li>
+		                  <button data-filter=".uiux" class="">Web/APP</button>
+		                </li>
+		                <li>
+		                  <button data-filter=".web" class="active">Visual Design</button>
+		                </li>
+		                <li>
+		                  <button data-filter=".visual" class="">Illustration</button>
+		                </li>
+
+		              </ul>
+		            </div>
 					
 					<!-- Lightbox Gallery  -->
-						<div class="container small ">
+						<div class="container small gallery-item">
 							
-						<div class="row flush images">
+						<!-- <div class="row flush images"> -->
 							
-							<div class="4u gallery">
-						        <a href="images/fulls/01.jpg" class="image fit from-right"><img src="images/thumbs/01.jpg" title="幫買APP" alt="" /></a>
+							<div class="col-md-4  gallery Web-APP">
+								<a href="images/fulls/011.jpg" class="image fit from-right"><img title="Kichi_web_2" alt="" /></a>
+						        <a href="images/fulls/01.jpg" class="image fit from-right"><img src="images/thumbs/01.jpg" title="Kichi_web_1" alt="" /></a>
 							</div>
 
-							<div class="4u gallery">
-							    <a href="images/fulls/02.jpg" class="image fit from-left"><img src="images/thumbs/02.jpg" title="試教邀請函" alt="" /></a>
+							<div class="col-md-4  gallery Web-APP">
+								<a href="images/fulls/021.jpg" class="image fit from-right"><img title="iSWind_web_2" alt="" /></a>
+							    <a href="images/fulls/02.jpg" class="image fit from-left"><img src="images/thumbs/02.jpg" title="iSWind_web_1" alt="" /></a>
 							</div>
 
-							<div class="4u gallery">
-							    <a href="images/fulls/031.jpg" class="image fit from-right"><img title="FNT官網網頁_2" alt="" /></a>
-								<a href="images/fulls/03.jpg" class="image fit from-right"><img src="images/thumbs/03.jpg" title="FNT官網網頁_1" alt="" /></a>
+							<div class="col-md-4  gallery Visual-Design">								
+							    <a href="images/fulls/031.jpg" class="image fit from-right"><img title="iSWind Logo_2" alt="" /></a>
+							    <a href="images/fulls/032.jpg" class="image fit from-right"><img title="iSWind Logo_3" alt="" /></a>
+								<a href="images/fulls/03.jpg" class="image fit from-right"><img src="images/thumbs/03.jpg" title="iSWind Logo_1" alt="" /></a>
 							</div>
-						</div>
+						<!-- </div> -->
 							
 							
-						<div class="row flush images">
- 						    <div class="4u gallery">
-							    <a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="屏北高中文創地圖" alt="" /></a>
+						<!-- <div class="row flush images"> -->
+ 						    <div class="col-md-4  gallery Visual-Design">
+ 						    	<a href="images/fulls/041.jpg" class="image fit from-right"><img title="Kichi Logo_2" alt="" /></a>
+							    <a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Kichi Logo_1" alt="" /></a>
 							</div>
 								
-							<div class="4u gallery">
-								<a href="images/fulls/051.jpg" class="image fit from-right"><img title="尤維里文宣海報_2" alt="" /></a>
-								<a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="尤維里文宣海報_1" alt="" /></a>
+							<div class="col-md-4  gallery Visual-Design">
+								<a href="images/fulls/051.jpg" class="image fit from-right"><img title="名片設計_2" alt="" /></a>
+								<a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="名片設計_1" alt="" /></a>
 							</div>
 								
-							<div class="4u gallery">
-							    <a href="images/fulls/061.jpg" class="image fit from-right"><img title="地產專案_南科產業園區雙月刊_2" alt="" /></a>
-								<a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="地產專案_城市防災國際會議提案_1" alt="" /></a>
+							<div class="col-md-4  gallery Visual-Design">
+							    <a href="images/fulls/061.jpg" class="image fit from-right"><img title="Line個人貼圖_2" alt="" /></a>
+								<a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Line 個人貼圖_1" alt="" /></a>
 							</div>
-						</div>
+						<!-- </div> -->
 							
 							
-						<div class="row flush images">
-							<div class="4u gallery">
-								<a href="images/fulls/071.jpg" class="image fit from-left"><img title="Market x文宣品_2" alt="" /></a>
-								<a href="images/fulls/07.jpg" class="image fit from-left"><img src="images/thumbs/07.jpg" title="Market x文宣品_1" alt="" /></a>
+						<!-- <div class="row flush images"> -->
+							<div class="col-md-4  gallery Visual-Design">
+								<a href="images/fulls/071.jpg" class="image fit from-left"><img title="iSWind 文宣品_2" alt="" /></a>
+								<a href="images/fulls/07.jpg" class="image fit from-left"><img src="images/thumbs/07.jpg" title="iSWind 文宣品_1" alt="" /></a>
 							</div>
 							
-							<div class="4u gallery">
-								<a href="images/fulls/08.jpg" class="image fit from-right"><img src="images/thumbs/08.jpg" title="步芬貍咖啡包裝" alt="" /></a>
+							<div class="col-md-4  gallery Illustration">
+								<a href="images/fulls/081.jpg" class="image fit from-left"><img title="插畫繪製_蠟筆_2" alt="" /></a>
+							    <a href="images/fulls/08.jpg" class="image fit from-left"><img src="images/thumbs/08.jpg" title="插畫繪製_蠟筆_1" alt="" /></a>
 							</div>
 							
-							<div class="4u gallery">
-								<a href="images/fulls/091.jpg" class="image fit from-left"><img title="成大學生論壇 成何體統_旗幟_2" alt="" />
-								<a href="images/fulls/09.jpg" class="image fit from-left"><img src="images/thumbs/09.jpg" title="成大學生論壇 成何體統_主場帆布_1" alt="" /></a>
+							<div class="col-md-4  gallery Illustration">
+								<a href="images/fulls/091.jpg" class="image fit from-left"><img title="職人刊物_插畫繪製_2" alt="" /></a>
+							    <a href="images/fulls/09.jpg" class="image fit from-left"><img src="images/thumbs/09.jpg" title="職人刊物_插畫繪製_1" alt="" /></a>
 							</div>
-						</div>
+						<!-- </div> -->
 							
 							
-						<div class="row flush images">
-							<div class="4u gallery">
-								<a href="images/fulls/101.jpg" class="image fit from-left"><img title="FoodCall官網_2" alt="" /></a>
-								<a href="images/fulls/10.jpg" class="image fit from-left"><img src="images/thumbs/10.jpg" title="FoodCall官網_1" alt="" /></a>
+						<!-- <div class="row flush images"> -->
+							<div class="col-md-4  gallery Illustration">	
+								<a href="images/fulls/101.jpg" class="image fit from-right"><img title="色鉛筆插畫_2" alt="" /></a>	
+								<a href="images/fulls/102.jpg" class="image fit from-right"><img title="色鉛筆插畫_3" alt="" /></a>												   
+							    <a href="images/fulls/103.jpg" class="image fit from-right"><img title="色鉛筆插畫_4" alt="" /></a>							
+								<a href="images/fulls/104.jpg" class="image fit from-right"><img title="色鉛筆插畫_5" alt="" /></a>								
+								<a href="images/fulls/10.jpg" class="image fit from-right"><img src="images/thumbs/10.jpg" title="繪本插畫_1" alt="" /></a>
 							</div>
-							<div class="4u gallery">
-							    <a href="images/fulls/111.jpg" class="image fit from-right"><img title="startup weekend_Flow官網_2" alt="" /></a>
-								<a href="images/fulls/11.jpg" class="image fit from-right"><img src="images/thumbs/11.jpg" title="startup weekend_Flow官網_1" alt="" /></a>
+							<div class="col-md-4  gallery Visual-Design">
+								<a href="images/fulls/111.jpg" class="image fit from-left"><img title="EASF精裝刊物_2" alt="" /></a>
+								<a href="images/fulls/112.jpg" class="image fit from-left"><img title="EASF文宣DM" alt="" /></a>
+								<a href="images/fulls/11.jpg" class="image fit from-left"><img src="images/thumbs/11.jpg" title="EASF精裝刊物_1" alt="" /></a>
 							</div>
-							<div class="4u gallery">
-								<a href="images/fulls/121.jpg" class="image fit from-left"><img title="EASF精裝刊物_2" alt="" /></a>
-								<a href="images/fulls/122.jpg" class="image fit from-left"><img title="EASF文宣DM" alt="" /></a>
-								<a href="images/fulls/12.jpg" class="image fit from-left"><img src="images/thumbs/12.jpg" title="EASF精裝刊物_1" alt="" /></a>
+							<div class="col-md-4  gallery Visual-Design">
+								<a href="images/fulls/121.jpg" class="image fit from-left"><img title="Beginner_2" alt="" /></a>
+								<a href="images/fulls/122.jpg" class="image fit from-left"><img title="Beginner_3" alt="" /></a>
+								<a href="images/fulls/12.jpg" class="image fit from-left"><img src="images/thumbs/12.jpg" title="Beginner_1" alt="" /></a>
 							</div>
-	     				</div>
+	     				<!-- </div> -->
 						
 						
-						<div class="row flush images">
-							<div class="4u gallery">
-								<a href="images/fulls/131.jpg" class="image fit from-left"><img title="Beginner_2" alt="" /></a>
-								<a href="images/fulls/132.jpg" class="image fit from-left"><img title="Beginner_3" alt="" /></a>
-								<a href="images/fulls/13.jpg" class="image fit from-left"><img src="images/thumbs/13.jpg" title="Beginner_1" alt="" /></a>
-								
+						<!-- <div class="row flush images"> -->
+							<div class="col-md-4  gallery Web-APP">
+								 <a href="images/fulls/131.jpg" class="image fit from-right"><img title="Flow_web_2" alt="" /></a>
+								<a href="images/fulls/13.jpg" class="image fit from-right"><img src="images/thumbs/13.jpg" title="Flow_web_1" alt="" /></a>
 							</div>
-							<div class="4u gallery">
-							    <a href="images/fulls/142.jpg" class="image fit from-right"><img title="色鉛筆插畫_2" alt="" /></a>
-								<a href="images/fulls/141.jpg" class="image fit from-right"><img title="色鉛筆插畫_3" alt="" /></a>
-								<a href="images/fulls/14.jpg" class="image fit from-right"><img src="images/thumbs/14.jpg" title="繪本插畫_1" alt="" /></a>
+							<div class="col-md-4  gallery Web-APP">
+							    <a href="images/fulls/141.jpg" class="image fit from-right"><img title="FNT_web_2" alt="" /></a>
+								<a href="images/fulls/14.jpg" class="image fit from-right"><img src="images/thumbs/14.jpg" title="FNT_web_1" alt="" /></a>
 							</div>
-							<div class="4u gallery">
-								<a href="images/fulls/151.jpg" class="image fit from-left"><img title="職人刊物_插畫繪製_2" alt="" /></a>
-							    <a href="images/fulls/15.jpg" class="image fit from-left"><img src="images/thumbs/15.jpg" title="職人刊物_插畫繪製_1" alt="" /></a>
+							<div class="col-md-4  gallery Web-APP">								
+							    <a href="images/fulls/151.jpg" class="image fit from-left"><img title="FoodCall_web_2" alt="" /></a>
+								<a href="images/fulls/15.jpg" class="image fit from-left"><img src="images/thumbs/15.jpg" title="FoodCall_web_1" alt="" /></a>
 							</div>
-	     				</div>
+	     				<!-- </div> -->
+
+	     				<!-- <div class="row flush images"> -->
+							<div class="col-md-4  gallery Web-APP">
+								<a href="images/fulls/16.jpg" class="image fit from-right"><img src="images/thumbs/16.jpg" title="幫買_APP" alt="" /></a>							
+							</div>
+							<div class="col-md-4  gallery Visual-Design">
+							    <a href="images/fulls/171.jpg" class="image fit from-left"><img title="Market x文宣品_2" alt="" /></a>
+								<a href="images/fulls/17.jpg" class="image fit from-left"><img src="images/thumbs/17.jpg" title="Market x文宣品_1" alt="" /></a>
+							</div>
+							<div class="col-md-4  gallery Visual-Design">
+								<a href="images/fulls/181.jpg" class="image fit from-left"><img title="成大學生論壇 成何體統_旗幟_2" alt="" />
+								<a href="images/fulls/18.jpg" class="image fit from-left"><img src="images/thumbs/18.jpg" title="成大學生論壇 成何體統_主場帆布_1" alt="" /></a>
+							</div>
+	     				<!-- </div> -->
 
 				</div>
 			</section>
@@ -323,4 +368,5 @@
 			</footer>
 
 	</body>
+	<script src="js/index.js"></script>
 </html>
